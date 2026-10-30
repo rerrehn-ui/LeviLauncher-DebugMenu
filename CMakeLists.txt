@@ -21,7 +21,15 @@ target_compile_features(
     PRIVATE cxx_std_20
 )
 
+find_library(
+    ANDROID_LOG_LIB
+    log
+    REQUIRED
+)
+
 target_link_libraries(
     levi_debug_menu
-    PRIVATE preloader
+    PRIVATE
+    preloader
+    ${ANDROID_LOG_LIB}
 )

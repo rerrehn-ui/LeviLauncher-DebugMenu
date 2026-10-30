@@ -48,6 +48,9 @@ public:
 
 private:
     static void drawOverlay() {
+        
+        instance().getSelf().getLogger().info("drawOverlay called");
+        
         using namespace pl::modmenu;
 
         const std::vector<DrawCommand> commands = {

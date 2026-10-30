@@ -1,0 +1,10 @@
+{
+  "type": "preload-native",
+  "name": "Java Debug Menu",
+  "author": "LeviLauncher-DebugMenu",
+  "version": "1.0.0",
+  "entry": "liblevi_debug_menu.so",
+  "minecraft_versions": [],
+  "overwrite_files": [],
+  "overwrite_folders": []
+}

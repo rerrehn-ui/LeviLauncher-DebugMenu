@@ -58,8 +58,8 @@ private:
                 .type = DrawCommandType::RectFilled,
                 .x = 8.0f,
                 .y = 8.0f,
-                .w = 310.0f,
-                .h = 150.0f,
+                .w = 420.0f,
+                .h = 220.0f,
                 .color = 0xAA000000
             },
             {
@@ -67,15 +67,15 @@ private:
                 .x = 16.0f,
                 .y = 16.0f,
                 .color = 0xFFFFFFFF,
-                .size = 16.0f,
-                .text = "Minecraft Java Debug"
+                .size = 20.0f,
+                .text = "Debug Screen"
             },
             {
                 .type = DrawCommandType::Text,
                 .x = 16.0f,
                 .y = 42.0f,
                 .color = 0xFFFFFFFF,
-                .size = 13.0f,
+                .size = 16.0f,
                 .text = "FPS: Waiting for game data"
             },
             {
@@ -91,7 +91,7 @@ private:
                 .x = 16.0f,
                 .y = 82.0f,
                 .color = 0xFFFFFFFF,
-                .size = 13.0f,
+                .size = 16.0f,
                 .text = "Facing: Waiting for game data"
             },
             {
@@ -99,7 +99,7 @@ private:
                 .x = 16.0f,
                 .y = 102.0f,
                 .color = 0xFFFFFFFF,
-                .size = 13.0f,
+                .size = 16.0f,
                 .text = "Biome: Waiting for game data"
             }
         };

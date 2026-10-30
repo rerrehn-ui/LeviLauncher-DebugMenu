@@ -16,7 +16,10 @@ add_library(levi_debug_menu SHARED
     src/main.cpp
 )
 
-target_compile_features(levi_debug_menu PRIVATE cxx_std_20)
+target_compile_features(
+    levi_debug_menu
+    PRIVATE cxx_std_20
+)
 
 target_link_libraries(
     levi_debug_menu

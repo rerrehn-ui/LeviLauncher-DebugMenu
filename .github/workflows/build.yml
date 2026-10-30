@@ -21,11 +21,13 @@ jobs:
           java-version: '21'
 
       - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4
+        with:
+          packages: 'platform-tools'
 
       - name: Check project files
         run: |
-          echo "Repository: $GITHUB_REPOSITORY"
-          echo "Checking CMakeLists.txt and source files"
+          echo "Checking project files..."
           test -f CMakeLists.txt
           test -f src/main.cpp
+          echo "Project files found."
